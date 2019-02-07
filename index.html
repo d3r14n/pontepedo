@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ponte Pedo - La versión Web</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="structure/main.css">
+	<script type="text/javascript" src="structure/main.js"></script>
+</head>
+<body>
+	<div id="instructivo">
+		<button id="btnCerrar" onclick="cerrarInstrucciones()">X</button>
+		<p id="instruccion">Para éste juego necesitarán amigos y una bebida por cada uno, el punto del juego es scar una carta y realizar la actividad que dicta, es un juego de bebida en el que no hay ganadores, sólo bebedores.
+		Beban responsablemente y eviten el exceso.</p>
+	</div>
+	<div id="tablero">
+		<p id="juego">Ponte Pedo</p>
+		<button id="btnInstructivo" onclick="mostrarInstrucciones()">Intrucciones</button>
+	</div>
+	<div id="mesa">
+		<div id="baraja" onclick="sacarCarta()">
+			<p id="carta"></p>
+		</div>
+		<button id="btnBaraja" onclick="sacarCarta()">Sacar Carta</button>
+	</div>
+	<p id="autor">Creado por Derian J. Hndz. L.</p>
+	<p id="version">v1.0</p>
+</body>
+</html>
